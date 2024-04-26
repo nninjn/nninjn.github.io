@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://nninjn.github.io">VeRe</a>
+          <a class="navbar-brand" href="http://nninjn.github.io">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,20 +44,21 @@
         <div class="col-lg-12">
           <h1 class="page-header">
               <div class="row">
-                <div class="col-lg-7 col-md-12">
+                <div class="col-lg-7   col-md-12">
                   VeRe: Verification Guided Synthesis for <br> Repairing Deep Neural Networks<br>
-                  <img style="width: 100%" src="fig/department.png">
+                  <!-- <img style="width: 100%" src="fig/department.png"> -->
                 </div>
                 <div class="col-lg-5 hidden-md hidden-sm hidden-xs">
-                  <img style="width: 100%;" src="fig/logo.png"/>
+                  <img style="width: 100%;" src="fig/department.png"/>
                 </div>
               </div>
           </h1>
         </div>
       </div>
       <div class="row">
-        <h2> Abstract </h2>
-        <p>
+        <h2 style="margin-left: 2.5%;"> Abstract </h2>
+        <div style="max-width: 95%; margin: 0 auto; text-align: center;">
+          <p>
             Neural network repair aims to fix the bugs of neural networks by modifying the model's architecture or parameters. 
             However, due to the data-driven nature of neural networks, it is difficult to explain the relationship between the internal neurons and erroneous behaviors, making further repair challenging. 
             While several work exists to identify responsible neurons based on gradient or causality analysis, their effectiveness heavily rely on the quality of available bugged data and multiple heuristics in layer or neuron selection. 
@@ -69,8 +70,10 @@
             For the task of removing backdoors, VeRe successfully reduces attack success rate from 98.47% to 0.38% on average, while causing an average performance drop of 0.9%. 
             For the task of repairing safety properties, VeRe successfully repairs all the 36 tasks and achieves 99.87% generalization on average.
           </p>
-          <p>
-            <img src="fig/framework.png" class="img-thumbnail" />
+        </div>
+
+          <p style="text-align: center;">
+            <img style="width: 70%;" src="fig/framework.png" class="img-thumbnail" />
           </p>
       </div>
       <div class="row">
@@ -79,7 +82,7 @@
           </h2>
           <p>
             <b>[<a href="https://conf.researchr.org/track/icse-2024/icse-2024-research-track">ICSE 2024</a>] VeRe: Verification Guided Synthesis for Repairing Deep Neural Networks </b> <br>
-            <i>Jianan Ma, Pengfei Yang, Jingyi Wang, Youcheng Sun, Cheng-Chao Huang and Zhen Wang</i> <br>
+            <i>Jianan Ma, Pengfei Yang, Jingyi Wang*, Youcheng Sun, Cheng-Chao Huang and Zhen Wang</i> <br>
             [<a href="https://dl.acm.org/doi/abs/10.1145/3597503.3623332">Paper</a>] [<a href="#TODO">Slides</a>] [<a href="https://figshare.com/articles/software/Artifact_VeRe_Verification_Guided_Synthesis_for_Repairing_Deep_Neural_Networks/24920130">Docker image</a>] <br>
             <!--BibTex for citation: <br>
             <samp>
